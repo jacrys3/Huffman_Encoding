@@ -10,9 +10,8 @@ the network are only those in the lowercase Latin (ascii) alphabet. Your task is
 encoding for these characters that is better than UTF-8. The public interface should be as follows:
 
 I implemented 3 functions as specified by the professor which are:
-
-> Encoder(std::shared_ptr<std::vector<int>>);
-  
-> std::shared_ptr<std::vector<char>> Encode(std::string);
-  
-> std::string Decode(std::shared_ptr<std::vector<char>>);
+```
+Encoder(std::shared_ptr<std::vector<int>>);
+std::shared_ptr<std::vector<char>> Encode(std::string);
+std::string Decode(std::shared_ptr<std::vector<char>>);
+```
