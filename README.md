@@ -6,11 +6,14 @@ the network are only those in the lowercase Latin (ascii) alphabet. Your task is
 encoding for these characters that is better than UTF-8. The public interface should be as follows:
 
 _//public constructor passing array of letter frequencies._
+
 Encoder(std::shared_ptr<std::vector<int>>);
   
 _//Encode std::string into a sequence of bytes._
+  
 std::shared_ptr<std::vector<char>> Encode(std::string);
   
 _//Decode an array of bytes into a std::string._
+  
 std::string Decode(std::shared_ptr<std::vector<char>>);
   
