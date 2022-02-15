@@ -9,3 +9,8 @@ are encoded using UTF-8. Recent analysis of your network has indicated that the 
 the network are only those in the lowercase Latin (ascii) alphabet. Your task is to implement a new 
 encoding for these characters that is better than UTF-8. The public interface should be as follows:
 
+I implemented 3 functions as specified by the professor which are:
+
+> Encoder(std::shared_ptr<std::vector<int>>);
+> std::shared_ptr<std::vector<char>> Encode(std::string);
+> std::string Decode(std::shared_ptr<std::vector<char>>);
