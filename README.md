@@ -7,7 +7,7 @@ The point of the assignment was to create a functioning decoder and encoder of c
 first task at DTC is to reduce the cost and improve performance of their network.  Currently characters 
 are encoded using UTF-8. Recent analysis of your network has indicated that the characters in use on 
 the network are only those in the lowercase Latin (ascii) alphabet. Your task is to implement a new 
-encoding for these characters that is better than UTF-8. The public interface should be as follows:
+encoding for these characters that is better than UTF-8.
 
 I implemented 3 functions as specified by the professor which are:
 ```
